@@ -2,8 +2,7 @@ import React from 'react';
 import ProjectCard from './ProjectCard';
 import BloodlineImage from "../../assets/bloodline.jpeg";
 import PortfolioImage from '../../assets/portfolio.jpeg';
-import Netflix from '../../assets/Netfl.png';
-
+import Codex from "../../assets/Codex.jpeg";
 const Projects = () => {
   return (
     <div id='Projects' className='p-10 md:p-24 text-white bg-black'>
@@ -21,9 +20,9 @@ const Projects = () => {
           image={PortfolioImage}
         />
         <ProjectCard 
-          title="Netflix Clone" 
-          main=" A NEtflix Clone usong HTML,CSS,and JavaScript" 
-          image={Netflix}
+          title="CodexReview" 
+          main="Code Reviewer is a full-stack React app that uses the Gemini API to analyze and review code snippets, enabling collaborative feedback and clean code practices." 
+          image={Codex}
         />
       </div>
     </div>
