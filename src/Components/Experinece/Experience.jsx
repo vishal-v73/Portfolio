@@ -6,6 +6,8 @@ import { FaHtml5, FaCss3, FaReact } from 'react-icons/fa';
 import { SiMongodb, SiTailwindcss, SiVite, SiJavascript, SiGeeksforgeeks, SiLeetcode, SiHackerrank, SiUdemy } from 'react-icons/si';
 import { motion } from 'framer-motion';
 import { SiFramer } from 'react-icons/si';
+import { SiFigma } from 'react-icons/si';
+
 
 
 const TechIcon = ({ icon, label, bg, percentage }) => {
@@ -85,7 +87,7 @@ const Experience = () => {
           transition={{ duration: 0.7 }}
         >
           <div className="bg-gradient-to-br from-[#0f0f0f] via-[#1a1a1a] to-[#0f0f0f] p-8 rounded-2xl shadow-2xl grid grid-cols-2 md:grid-cols-3 gap-6 place-items-center border border-white/10 backdrop-blur-sm">
-          <TechIcon icon={<FaHtml5 color="#E34F26" size={30} />} label="HTML" bg="bg-white" percentage={70} />
+         <TechIcon icon={<FaHtml5 color="#E34F26" size={30} />} label="HTML" bg="bg-white" percentage={70} />
 <TechIcon icon={<FaCss3 color="#1572B6" size={30} />} label="CSS" bg="bg-white" percentage={70} />
 <TechIcon icon={<SiJavascript color="#000" size={30} />} label="JavaScript" bg="bg-yellow-300" percentage={60} />
 <TechIcon icon={<SiMongodb color="#47A248" size={30} />} label="MongoDB" bg="bg-zinc-800" percentage={50} />
@@ -93,6 +95,8 @@ const Experience = () => {
 <TechIcon icon={<SiTailwindcss color="#38BDF8" size={30} />} label="Tailwind" bg="bg-zinc-800" percentage={30} />
 <TechIcon icon={<SiVite color="#646CFF" size={30} />} label="Vite" bg="bg-zinc-800" percentage={50} />
 <TechIcon icon={<SiFramer size={30} color="#ffffff" />} label="Framer Motion" bg="bg-purple-800" percentage={10} />
+<TechIcon icon={<SiFigma color="#F24E1E" size={30} />} label="Figma" bg="bg-white" percentage={80} />
+
 
           </div>
         </motion.div>

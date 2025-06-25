@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const TextChanger = () => {
   const staticText = "Hi, I'm Vishal,";
-  const variations = ["a Frontend Developer 💻", "a React Enthusiast ⚛️"];
+  const variations = ["a Frontend Developer 💻", "a React Enthusiast ⚛️", "passionate about UI/UX Design 🎨"];
 
   const [displayText, setDisplayText] = useState('');
   const [textIndex, setTextIndex] = useState(0);
