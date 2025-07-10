@@ -4,7 +4,8 @@ import BloodlineImage from "../../assets/bloodline.jpeg";
 import PortfolioImage from '../../assets/portfolio.jpeg';
 import payment from '../../assets/payment.png'
 import Codex from "../../assets/Codex.jpeg";
-import rental from "../../assets/rental.png"
+import rental from "../../assets/rental.png";
+import Mover from "../../assets/Mover.png"
 const Projects = () => {
   return (
     <div id='Projects' className='p-10 md:p-24 text-white bg-black'>
@@ -16,6 +17,12 @@ const Projects = () => {
 </span>
 
       <div className='flex flex-wrap justify-center gap-8 mb-16'>
+               <ProjectCard 
+          title="Packer and Mover (destop)"
+          main="A conceptual UI for a rental booking platform, designed with user-centric navigation and responsive components."
+          image={Mover}
+          demoLink="https://www.figma.com/proto/7q0URw01RXEMvi9pJnoHXB/Untitled?node-id=1-5&starting-point-node-id=1%3A5"
+        />
         <ProjectCard 
           title="Rental App (UI/UX)"
           main="A conceptual UI for a rental booking platform, designed with user-centric navigation and responsive components."
